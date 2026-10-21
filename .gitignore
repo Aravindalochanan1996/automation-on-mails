@@ -1,0 +1,26 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# Contains reusable Microsoft sign-in tokens and the processed-attachment list.
+.msal_token_cache.json
+.outlook_attachment_state.json
+
+node_modules/
+.env.*
+!.env.example
+venv/
+env/
+*.py[cod]
+dist/
+build/
+logs/
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+downloads/
+download/
+output/
